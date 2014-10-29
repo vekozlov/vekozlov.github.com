@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  z-index: 10;
+}

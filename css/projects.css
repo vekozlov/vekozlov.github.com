@@ -1,0 +1,33 @@
+section.projects .project {
+  max-width: 47%;
+  display: inline-block;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+section.projects .project .links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+section.projects .project .links img {
+  vertical-align: middle;
+}
+section.projects .project .links a.github  img { width: 30px; }
+section.projects .project .links a.website img { width: 25px; }
+
+section.projects .project .image { height: 200px; overflow: hidden; box-shadow: 1px 1px 5px #999; }
+section.projects .project .image img { width: 100%;}
+
+
+section.projects .project .links div {
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+section.projects .project:nth-child(2n) {
+  margin-left: 5%;
+}
