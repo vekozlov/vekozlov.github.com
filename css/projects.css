@@ -31,3 +31,7 @@ section.projects .project .links div {
 section.projects .project:nth-child(2n) {
   margin-left: 5%;
 }
+
+section.projects img.project_image {
+  width: 100%;
+}
