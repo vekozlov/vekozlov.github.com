@@ -28,3 +28,24 @@ section.projects .project .links div {
 section.projects img.project_image {
   width: 100%;
 }
+
+section.projects .media a {
+  font-family: 'Noto Serif', serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #333;
+}
+
+section .codes {
+  text-align: center;
+}
+
+section .codes a {
+  margin-right: 1rem;
+  font-family: 'Noto Serif', serif;
+  font-weight: 300;
+  color: #345d7b;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}

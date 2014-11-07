@@ -52,6 +52,10 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
+p .bold {
+ font-weight: 700;
+}
+
 blockquote {
   max-width: 1000px;
   width: 80%;
@@ -75,6 +79,10 @@ blockquote > div {
   -webkit-font-smoothing: antialiased;
   margin-bottom: 30px;
   color: #333;
+}
+
+blockquote .sign {
+  font-style: normal;
 }
 
 .devider {
