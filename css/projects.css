@@ -2,10 +2,17 @@ section.projects .project {
   display: inline-block;
   vertical-align: top;
   margin-bottom: 15px;
+  border-bottom: 1px dashed #ddd;
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 30px;
 }
 
+/* links */
+
+section.projects .project .links {
+  text-align: center;
+}
 section.projects .project .links a {
-  margin-right: 15px;
   text-decoration: none;
   color: #333;
 }
@@ -14,10 +21,6 @@ section.projects .project .links img {
 }
 section.projects .project .links a.github  img { width: 30px; }
 section.projects .project .links a.website img { width: 25px; }
-
-section.projects .project .images { text-align: center; }
-section.projects .project .images img { width: 33%; margin: 0 auto}
-
 section.projects .project .links div {
   vertical-align: middle;
   text-decoration: none;
@@ -25,9 +28,12 @@ section.projects .project .links div {
   margin-left: 5px;
 }
 
-section.projects img.project_image {
-  width: 100%;
-}
+/* images */
+
+section.projects .project .images     { text-align: center; }
+section.projects .project .images img { max-width: 33%; margin: 0 auto; max-height: 100px;}
+
+/* media */
 
 section.projects .media a {
   font-family: 'Noto Serif', serif;
@@ -36,6 +42,8 @@ section.projects .media a {
   color: #333;
   border-bottom: 1px solid #333;
 }
+
+/* code examples */
 
 section .codes {
   text-align: center;
