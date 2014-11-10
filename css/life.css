@@ -1,0 +1,12 @@
+.personal.image {}
+.personal.image {}
+.personal.image {}
+.personal.image {}
+.personal.image {}
+
+
+/* images */
+
+section.life .images     { text-align: center; }
+section.life .images .image { max-width: 30%; display: inline-block; margin: 0 auto; max-height: 200px; position: relative;}
+section.life .images img { max-height: 200px; max-width: 100%; position: relative;}

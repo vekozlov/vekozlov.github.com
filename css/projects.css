@@ -57,3 +57,10 @@ section .codes a {
   font-size: 1.5rem;
   vertical-align: middle;
 }
+
+section .codes a .lang {
+  max-width: 15px;
+  max-height: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}

@@ -15,6 +15,19 @@ section.blue {
   background: #4593c0;
 }
 
+section.why_ruby {
+  /*background: #c8382f;
+  background: #e04d2d;*/
+}
+
+section.why_ruby .reason {
+  font-weight: 700;
+}
+section.why_ruby .explanation {
+  font-style: italic;
+  margin-left: 50px;
+}
+
 section.blue p {
   color: #fff;  
 }
