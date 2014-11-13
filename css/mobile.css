@@ -27,4 +27,20 @@
   p {
     font-size: 1rem;
   }
+
+  section.contacts .connect a{
+    font-size: 1rem;
+  }
+
+  blockquote {
+    font-size: 1.3rem;
+  }
+
+  section.white.why_ruby blockquote > div.sign {
+    font-style: 1rem !important;
+  }
+
+  section.why_ruby p.explanation {
+    margin-left: 20px;
+  }
 }
