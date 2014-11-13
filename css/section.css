@@ -139,3 +139,10 @@ section.contacts .connect {
 section.contacts .connect p{
   margin-bottom: 5px;
 }
+
+div.technologies {
+  text-align: center;
+}
+div.technologies img.technology {
+  max-height: 50px;
+}

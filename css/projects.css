@@ -6,6 +6,9 @@ section.projects .project {
   font-family: 'Noto Serif', serif;
   padding-bottom: 30px;
 }
+section.projects .project:last-child {
+  border-bottom: 0;
+}
 
 /* links */
 
@@ -35,13 +38,11 @@ section.projects .project .images img { max-width: 33%; margin: 0 auto; max-heig
 
 /* media */
 
-section.projects .media a {
+section.projects p a {
   font-family: 'Noto Serif', serif;
   font-weight: 300;
   text-decoration: none;
-  color: #333;
-  border-bottom: 1px solid #333;
-}
+  color: #4593c0;
 
 /* code examples */
 
