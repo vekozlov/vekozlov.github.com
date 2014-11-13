@@ -13,4 +13,9 @@
     top: 0;
     position: absolute;
   }
+
+  section.contacts p {
+    width: 100%;
+    margin: 0;
+  }
 }
