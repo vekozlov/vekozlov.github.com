@@ -4,7 +4,7 @@ body {
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Proxima Nova Light', sans-serif;
   font-weight: 300;
 }
 
@@ -17,6 +17,6 @@ section .content {
 }
 
 .bold {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Proxima Nova Light', serif;
   font-weight: 700;
 }

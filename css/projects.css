@@ -10,6 +10,10 @@ section.projects .project:last-child {
   border-bottom: 0;
 }
 
+section.projects .project h5 {
+  font-family: 'Proxima Nova Bold', serif;
+}
+
 /* links */
 
 section.projects .project .links {
@@ -33,13 +37,26 @@ section.projects .project .links div {
 
 /* images */
 
-section.projects .project .images     { text-align: center; }
-section.projects .project .images img { max-width: 33%; margin: 0 auto; max-height: 100px;}
+section.projects .project .description {
+  vertical-align: top;
+  width: 49%;
+  display: inline-block;
+}
+section.projects .project .images     {
+  vertical-align: top;
+  text-align: center; 
+  width: 49%;
+  display: inline-block;
+}
+section.projects .project .images img {
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* media */
 
 section.projects p a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Proxima Nova Light', serif;
   font-weight: 300;
   text-decoration: none;
   color: #4593c0;
@@ -52,7 +69,7 @@ section .codes {
 
 section .codes a {
   margin-right: 1rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Proxima Nova Light', serif;
   font-weight: 300;
   color: #345d7b;
   font-size: 1.5rem;
