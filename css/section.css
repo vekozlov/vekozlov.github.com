@@ -6,14 +6,41 @@ section {
 
 section.white {
   background: #fff;
+  color: #1d2d35;
 }
 section.white p {
-  color: #333;  
+  color: #1d2d35;  
 }
 
 section.blue {
-  background: #EDEDF1;
+  /*background: #EDEDF1;*/
+
+  background: #4899E4;
+  background: -webkit-linear-gradient(bottom right, #4899E4, #FF5C5A);
+  background: -moz-linear-gradient(bottom right, #4899E4, #FF5C5A);
+  background: linear-gradient(bottom right, #4899E4, #FF5C5A);
+
+  background: #4899E4;
+  background: -webkit-linear-gradient(bottom right, #4899E4, #FFFFFF);
+  background: -moz-linear-gradient(bottom right, #4899E4, #FFFFFF);
+  background: linear-gradient(bottom right, #4899E4, #FFFFFF);
+
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 95%);
+  padding: 30px 0;
+
+
 }
+
+section.pink {
+  background: #F27EEE;
+  background: -webkit-linear-gradient(bottom right, #F27EEE, #FFFFFF);
+  background: -moz-linear-gradient(bottom right, #F27EEE, #FFFFFF);
+  background: linear-gradient(bottom right, #F27EEE, #FFFFFF);
+}
+section.blue.last {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+
 section.blue p {
   color: #333;  
 }
@@ -48,27 +75,36 @@ h1 {
   clear: both;
   -webkit-font-smoothing: antialiased;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #fff;
   font-size: 2rem;
-  color: #333;
+  color: #1d2d35;
   font-family: 'Proxima Nova Bold', serif;
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Futura PT Bold';
 }
 
 h5 {
   font-family: 'Proxima Nova Regular', serif;
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
   text-align: left;
-  color: #345d7b;
+  color: #1d2d35;
   font-size: 1.3rem;
+  font-family: 'Futura PT Bold';
 }
 
 p {
   font-family: 'Proxima Nova Light', serif;
-  font-weight: 300;
-  font-size: 1.3rem;
-  text-align: justify;
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Futura PT Regular';
   -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1d2d35;
+  /*font-weight: 300;*/
+  /*font-size: 1.3rem;*/
+  text-align: justify;
 }
 
 strong {
@@ -140,6 +176,7 @@ section.contacts a {
   color: #fff;
   text-decoration: none;
   font-family: 'Proxima Nova Light', serif;
+  font-family: 'Futura PT Regular';
   font-weight: 300;
   font-size: 1.3rem;
   text-align: justify;

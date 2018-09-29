@@ -12,6 +12,7 @@ section.projects .project:last-child {
 
 section.projects .project h5 {
   font-family: 'Proxima Nova Bold', serif;
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 /* links */
@@ -21,7 +22,9 @@ section.projects .project .links {
 }
 section.projects .project .links a {
   text-decoration: none;
-  color: #333;
+  color: #1d2d35;
+  font-family: 'Futura PT Regular';
+
 }
 section.projects .project .links img {
   vertical-align: middle;
@@ -40,6 +43,7 @@ section.projects .project .links div {
 section.projects .project .description {
   vertical-align: top;
   width: 49%;
+  color: #1d2d35;
   display: inline-block;
 }
 section.projects .project .images     {
@@ -57,6 +61,7 @@ section.projects .project .images img {
 
 section.projects p a {
   font-family: 'Proxima Nova Light', serif;
+  font-family: 'Futura PT Regular';
   font-weight: 300;
   text-decoration: none;
   color: #4593c0;

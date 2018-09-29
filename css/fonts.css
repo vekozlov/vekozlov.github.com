@@ -12,3 +12,13 @@
   font-family: "Proxima Nova Bold";
   src: url("../css/ProximaNova/ProximaNova-Bold.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "Futura PT Regular";
+  src: url("../css/FuturaPT/FuturaPT-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura PT Bold";
+  src: url("../css/FuturaPT/FuturaPT-Heavy.ttf") format("truetype");
+}
