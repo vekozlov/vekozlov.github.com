@@ -22,3 +22,18 @@
   font-family: "Futura PT Bold";
   src: url("../css/FuturaPT/FuturaPT-Heavy.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Space Mono Bold";
+  src: url("../css/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant Bold";
+  src: url("../css/Cormorant/Cormorant-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BioRhyme Bold";
+  src: url("../css/BioRhyme/BioRhyme-VariableFont_wdth,wght.ttf") format("truetype");
+}

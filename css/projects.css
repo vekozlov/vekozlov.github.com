@@ -2,9 +2,9 @@ section.projects .project {
   display: inline-block;
   vertical-align: top;
   margin-bottom: 15px;
-  border-bottom: 1px dashed #ddd;
+  /*border-bottom: 1px dashed #ddd;*/
   font-family: 'Noto Serif', serif;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
 }
 section.projects .project:last-child {
   border-bottom: 0;
@@ -42,7 +42,8 @@ section.projects .project .links div {
 
 section.projects .project .description {
   vertical-align: top;
-  width: 49%;
+  /*width: 49%;*/
+  width: 100%;
   color: #1d2d35;
   display: inline-block;
 }
@@ -51,6 +52,7 @@ section.projects .project .images     {
   text-align: center; 
   width: 49%;
   display: inline-block;
+  display:  none;
 }
 section.projects .project .images img {
   width: 100%;
