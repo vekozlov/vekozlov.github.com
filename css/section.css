@@ -48,6 +48,13 @@ section .content {
   width: 80%;
 }
 
+@media (max-width: 900px) {
+  section .content {
+    color: #333;
+    width: 95%;
+  }
+}
+
 section .content-left {
   width: 49%;
   max-width: 400px;
@@ -92,6 +99,59 @@ section.top img {
   display: none;
 }
 
+section.intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  h2 {
+    margin-top: 0;
+  }
+  img {
+    height: 400px;
+    /* float: right; */
+  }
+}
+section.intro div.text-block {
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+}
+
+section.intro div.img-block {
+  display: inline-block;
+  width: 49%;
+  float: right;
+}
+
+section.intro img.img-square {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  section.intro {
+    margin-top: 30px;
+  }
+  section.intro .img-square-block {
+    text-align: center;
+  }
+  section.intro img.img-square {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  section.intro div.text-block {
+    width: 100%;
+  }
+
+  section.intro div.img-block {
+    img {
+      display: none;
+    }
+  }
+}
+
 h1 {
   font-weight: 900;
   clear: both;
@@ -124,6 +184,12 @@ h1 {
   /* border-bottom: 3px solid #000; */
   /* border-top: 3px solid #000; */
   margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 h2 a[href^='http']::after {
@@ -275,6 +341,11 @@ p {
   /* font-weight: 300; */
   /*font-size: 1.3rem;*/
   text-align: justify;
+  text-align: left;
+}
+
+p a[href^='http'] {
+  display: none;
 }
 
 p a[href^='http']::after {

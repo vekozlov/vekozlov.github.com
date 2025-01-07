@@ -59,6 +59,14 @@ section.projects .project .images img {
   margin: 0 auto;
 }
 
+
+section.projects .project {
+  ul {
+    padding-left: 15px;
+  }
+}
+
+
 /* media */
 
 section.projects p a {
