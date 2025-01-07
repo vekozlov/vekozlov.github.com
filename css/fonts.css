@@ -1,39 +1,148 @@
-@font-face {
-  font-family: "Proxima Nova Light";
-  src: url("../css/ProximaNova/ProximaNova-Light.otf") format("opentype");
+/* @font-face { */
+/*   font-family: "Proxima Nova Light"; */
+/*   src: url("../css/ProximaNova/ProximaNova-Light.otf") format("opentype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Proxima Nova Regular"; */
+/*   src: url("../css/ProximaNova/ProximaNova-Regular.otf") format("opentype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Proxima Nova Bold"; */
+/*   src: url("../css/ProximaNova/ProximaNova-Bold.otf") format("opentype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Futura PT Regular"; */
+/*   src: url("../css/FuturaPT/FuturaPT-Book.ttf") format("truetype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Futura PT Bold"; */
+/*   src: url("../css/FuturaPT/FuturaPT-Heavy.ttf") format("truetype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Space Mono Bold"; */
+/*   src: url("../css/Space_Mono/SpaceMono-Bold.ttf") format("truetype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "Cormorant Bold"; */
+/*   src: url("../css/Cormorant/Cormorant-VariableFont_wght.ttf") format("truetype"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: "BioRhyme Bold"; */
+/*   src: url("../css/BioRhyme/BioRhyme-VariableFont_wdth,wght.ttf") format("truetype"); */
+/* } */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Proxima Nova Regular";
-  src: url("../css/ProximaNova/ProximaNova-Regular.otf") format("opentype");
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Proxima Nova Bold";
-  src: url("../css/ProximaNova/ProximaNova-Bold.otf") format("opentype");
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Futura PT Regular";
-  src: url("../css/FuturaPT/FuturaPT-Book.ttf") format("truetype");
+.poppins-regular,
+body * {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Futura PT Bold";
-  src: url("../css/FuturaPT/FuturaPT-Heavy.ttf") format("truetype");
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Space Mono Bold";
-  src: url("../css/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Cormorant Bold";
-  src: url("../css/Cormorant/Cormorant-VariableFont_wght.ttf") format("truetype");
+.poppins-bold, .poppins-bold a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "BioRhyme Bold";
-  src: url("../css/BioRhyme/BioRhyme-VariableFont_wdth,wght.ttf") format("truetype");
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }

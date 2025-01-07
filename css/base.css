@@ -3,10 +3,10 @@ body {
   margin: 0;
 }
 
-* {
-  font-family: 'Proxima Nova Light', sans-serif;
-  font-weight: 300;
-}
+/* * { */
+/*   font-family: 'Proxima Nova Light', sans-serif; */
+/*   font-weight: 300; */
+/* } */
 
 section .content {
   position: relative;
@@ -16,7 +16,7 @@ section .content {
   z-index: 10;
 }
 
-.bold {
-  font-family: 'Proxima Nova Light', serif;
-  font-weight: 700;
-}
+/* .bold { */
+/*   font-family: 'Proxima Nova Light', serif; */
+/*   font-weight: 700; */
+/* } */
